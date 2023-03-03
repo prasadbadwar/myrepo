@@ -1,1 +1,34 @@
 **********git coomand
+
+D:\gitrepo>git init
+Initialized empty Git repository in D:/gitrepo/.git/
+
+D:\gitrepo>git remote add origin https://github.com/prasadbadwar/myrepo.git
+
+D:\gitrepo>git add .
+
+D:\gitrepo>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   hello.txt.txt
+
+
+D:\gitrepo>git commit -m "git commands"
+[master (root-commit) 8be89b8] git commands
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello.txt.txt
+
+D:\gitrepo>git push origin master
+info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 229 bytes | 229.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/prasadbadwar/myrepo.git
+ * [new branch]      master -> master
+
+D:\gitrepo>
